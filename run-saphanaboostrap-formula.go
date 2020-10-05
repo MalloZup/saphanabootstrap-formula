@@ -145,5 +145,5 @@ func main() {
 		log.Errorf("error while executing salt formula %s, %s", err, formulaOut)
 	}
 	log.Infof("[FORMULA]: formula %s installed!", formulaName)
-	log.Infof(formulaOut)
+	log.Info(formulaOut)
 }
